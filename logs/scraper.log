@@ -1,0 +1,334 @@
+2025-10-19 14:44:22,594 - INFO - Website metadata loaded from websites.csv
+2025-10-19 14:44:22,988 - WARNING - Bitcoin price tag not found on the page.
+2025-10-19 14:44:22,989 - WARNING - No data to save.
+2025-10-19 14:53:43,190 - INFO - Website metadata loaded from websites.csv
+2025-10-19 14:53:43,497 - WARNING - Bitcoin price tag not found.
+2025-10-19 14:53:43,503 - WARNING - No Bitcoin data to save.
+2025-10-19 14:53:45,509 - INFO - Meteostat scraper not yet implemented.
+2025-10-19 14:53:48,752 - INFO - Website metadata loaded from websites.csv
+2025-10-19 14:53:49,133 - WARNING - Bitcoin price tag not found.
+2025-10-19 14:53:49,140 - WARNING - No Bitcoin data to save.
+2025-10-19 14:53:49,516 - INFO - USGS scraper not yet implemented.
+2025-10-19 14:53:51,144 - INFO - Meteostat scraper not yet implemented.
+2025-10-19 14:53:55,150 - INFO - USGS scraper not yet implemented.
+2025-10-19 14:59:18,076 - INFO - Website metadata loaded from websites.csv
+2025-10-19 14:59:18,455 - WARNING - Bitcoin price tag not found.
+2025-10-19 14:59:18,462 - WARNING - No Bitcoin data to save.
+2025-10-19 14:59:20,467 - INFO - Meteostat scraper not yet implemented.
+2025-10-19 14:59:24,477 - INFO - USGS scraper not yet implemented.
+2025-10-19 15:08:10,913 - INFO - Website metadata loaded from websites.csv
+2025-10-19 15:08:11,288 - WARNING - Bitcoin price tag not found.
+2025-10-19 15:08:11,289 - WARNING - No Bitcoin data to save.
+2025-10-19 15:08:13,294 - INFO - Meteostat scraper not yet implemented.
+2025-10-19 15:08:17,304 - INFO - USGS scraper not yet implemented.
+2025-10-19 15:11:50,769 - INFO - Website metadata loaded from websites.csv
+2025-10-19 15:11:50,889 - INFO - Bitcoin price (API) retrieved successfully: $107474
+2025-10-19 15:11:50,892 - INFO - Bitcoin data saved to data/bitcoin.csv
+2025-10-19 15:11:52,897 - INFO - Meteostat scraper not yet implemented.
+2025-10-19 15:11:56,904 - INFO - USGS scraper not yet implemented.
+2025-10-19 15:20:24,839 - INFO - Website metadata loaded from websites.csv
+2025-10-19 15:20:24,967 - INFO - Bitcoin price (API) retrieved successfully: $107487
+2025-10-19 15:20:24,969 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-19 15:20:26,974 - INFO - Meteostat scraper not yet implemented.
+2025-10-19 15:20:30,985 - INFO - USGS scraper not yet implemented.
+2025-10-20 12:15:48,946 - INFO - Bitcoin price (API) retrieved successfully: $110989
+2025-10-20 12:15:48,956 - INFO - Bitcoin data saved to data/bitcoin.csv
+2025-10-20 12:16:49,068 - INFO - Bitcoin price (API) retrieved successfully: $111014
+2025-10-20 12:16:49,073 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:18:49,181 - INFO - Bitcoin price (API) retrieved successfully: $111037
+2025-10-20 12:18:49,186 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:19:49,311 - INFO - Bitcoin price (API) retrieved successfully: $111008
+2025-10-20 12:19:49,314 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:20:49,443 - INFO - Bitcoin price (API) retrieved successfully: $110998
+2025-10-20 12:20:49,448 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:21:49,577 - INFO - Bitcoin price (API) retrieved successfully: $110965
+2025-10-20 12:21:49,582 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:22:49,729 - INFO - Bitcoin price (API) retrieved successfully: $110942
+2025-10-20 12:22:49,734 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:23:49,882 - INFO - Bitcoin price (API) retrieved successfully: $110942
+2025-10-20 12:23:49,886 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:24:50,027 - INFO - Bitcoin price (API) retrieved successfully: $110944
+2025-10-20 12:24:50,032 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:25:50,149 - INFO - Bitcoin price (API) retrieved successfully: $110943
+2025-10-20 12:25:50,154 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:26:50,295 - INFO - Bitcoin price (API) retrieved successfully: $110941
+2025-10-20 12:26:50,299 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:27:50,426 - INFO - Bitcoin price (API) retrieved successfully: $110968
+2025-10-20 12:27:50,431 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:28:50,555 - INFO - Bitcoin price (API) retrieved successfully: $111019
+2025-10-20 12:28:50,562 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:29:50,694 - INFO - Bitcoin price (API) retrieved successfully: $111026
+2025-10-20 12:29:50,699 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:30:54,008 - INFO - Bitcoin price (API) retrieved successfully: $111027
+2025-10-20 12:30:54,015 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:34:39,950 - INFO - Bitcoin price (API) retrieved successfully: $111081
+2025-10-20 12:34:39,956 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:50:40,077 - INFO - Bitcoin price (API) retrieved successfully: $110897
+2025-10-20 12:50:40,086 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 12:51:40,221 - INFO - Bitcoin price (API) retrieved successfully: $110858
+2025-10-20 12:51:40,225 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:07:40,293 - INFO - Bitcoin price (API) retrieved successfully: $110704
+2025-10-20 13:07:40,300 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:08:40,441 - INFO - Bitcoin price (API) retrieved successfully: $110716
+2025-10-20 13:08:40,452 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:09:40,607 - INFO - Bitcoin price (API) retrieved successfully: $110720
+2025-10-20 13:09:40,612 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:16:44,277 - INFO - Bitcoin price (API) retrieved successfully: $110707
+2025-10-20 13:16:44,290 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:18:12,236 - INFO - Bitcoin price (API) retrieved successfully: $110805
+2025-10-20 13:18:12,241 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:25:27,226 - INFO - Bitcoin price (API) retrieved successfully: $110758
+2025-10-20 13:25:27,243 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:26:27,377 - INFO - Bitcoin price (API) retrieved successfully: $110730
+2025-10-20 13:26:27,381 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:27:27,509 - INFO - Bitcoin price (API) retrieved successfully: $110756
+2025-10-20 13:27:27,515 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:28:27,624 - INFO - Bitcoin price (API) retrieved successfully: $110811
+2025-10-20 13:28:27,627 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:29:27,742 - INFO - Bitcoin price (API) retrieved successfully: $110879
+2025-10-20 13:29:27,747 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:30:27,858 - INFO - Bitcoin price (API) retrieved successfully: $110867
+2025-10-20 13:30:27,863 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:31:28,023 - INFO - Bitcoin price (API) retrieved successfully: $110836
+2025-10-20 13:31:28,033 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:32:28,180 - INFO - Bitcoin price (API) retrieved successfully: $110830
+2025-10-20 13:32:28,187 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:33:28,286 - INFO - Bitcoin price (API) retrieved successfully: $110804
+2025-10-20 13:33:28,289 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:34:28,394 - INFO - Bitcoin price (API) retrieved successfully: $110797
+2025-10-20 13:34:28,398 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 13:35:28,532 - INFO - Bitcoin price (API) retrieved successfully: $110811
+2025-10-20 13:35:28,536 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 14:17:20,797 - INFO - Bitcoin price (API) retrieved successfully: $110941
+2025-10-20 14:17:20,805 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 14:18:20,913 - INFO - Bitcoin price (API) retrieved successfully: $110947
+2025-10-20 14:18:20,917 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 14:19:21,057 - INFO - Bitcoin price (API) retrieved successfully: $110937
+2025-10-20 14:19:21,063 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 14:54:12,748 - INFO - Website metadata loaded from websites.csv
+2025-10-20 14:54:12,884 - INFO - Bitcoin price (API) retrieved successfully: $110893
+2025-10-20 14:54:12,886 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 14:54:15,047 - WARNING - Some weather values could not be extracted from Meteostat.
+2025-10-20 14:54:15,049 - WARNING - No Meteostat data to save.
+2025-10-20 14:54:17,054 - INFO - USGS scraper not yet implemented.
+2025-10-20 15:10:18,206 - INFO - Website metadata loaded from websites.csv
+2025-10-20 15:10:18,344 - INFO - Bitcoin price (API) retrieved successfully: $110801
+2025-10-20 15:10:18,346 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 15:10:19,963 - ERROR - Request failed after retries: 403 Client Error: Forbidden for url: https://meteostat.p.rapidapi.com/stations/hourly?station=10384&start=2025-10-20&end=2025-10-20&tz=Europe%2FBerlin
+2025-10-20 15:10:19,966 - ERROR - Failed to fetch data from Meteostat API.
+2025-10-20 15:10:19,966 - WARNING - No Meteostat data to save.
+2025-10-20 15:10:21,089 - INFO - 37 earthquake(s) parsed from USGS.
+2025-10-20 15:10:21,093 - INFO - USGS data saved to data/usgs.csv
+2025-10-20 15:23:11,711 - INFO - Website metadata loaded from websites.csv
+2025-10-20 15:23:11,841 - INFO - Bitcoin price (API) retrieved successfully: $110660
+2025-10-20 15:23:11,844 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 15:23:12,926 - ERROR - Error fetching Meteostat local data: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+2025-10-20 15:23:12,927 - WARNING - No Meteostat data to save.
+2025-10-20 15:23:14,074 - INFO - 37 earthquake(s) parsed from USGS.
+2025-10-20 15:23:14,083 - INFO - All USGS records already exist. Skipping save.
+2025-10-20 15:25:17,647 - INFO - Website metadata loaded from websites.csv
+2025-10-20 15:25:17,744 - INFO - Bitcoin price (API) retrieved successfully: $110661
+2025-10-20 15:25:17,746 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 15:25:18,803 - ERROR - Error fetching Meteostat data (T-1): <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+2025-10-20 15:25:18,846 - ERROR - Error fetching Meteostat data (T-2): <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+2025-10-20 15:25:18,846 - WARNING - Meteostat returned no data for any fallback date.
+2025-10-20 15:25:18,847 - WARNING - No Meteostat data to save.
+2025-10-20 15:25:19,975 - INFO - 36 earthquake(s) parsed from USGS.
+2025-10-20 15:25:19,983 - INFO - All USGS records already exist. Skipping save.
+2025-10-20 15:28:29,939 - INFO - Website metadata loaded from websites.csv
+2025-10-20 15:28:30,076 - INFO - Bitcoin price (API) retrieved successfully: $110680
+2025-10-20 15:28:30,079 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 15:28:31,136 - ERROR - Error fetching Meteostat data (T-1): <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+2025-10-20 15:28:31,184 - ERROR - Error fetching Meteostat data (T-2): <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+2025-10-20 15:28:31,185 - WARNING - Meteostat returned no data for any fallback date.
+2025-10-20 15:28:31,186 - WARNING - No Meteostat data to save.
+2025-10-20 15:28:32,327 - ERROR - Error parsing USGS data: type object 'datetime.datetime' has no attribute 'UTC'
+2025-10-20 15:28:32,329 - WARNING - No USGS data to save.
+2025-10-20 15:29:11,871 - INFO - Website metadata loaded from websites.csv
+2025-10-20 15:29:11,968 - INFO - Bitcoin price (API) retrieved successfully: $110694
+2025-10-20 15:29:11,970 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 15:29:13,033 - ERROR - Error fetching Meteostat data (T-1): <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+2025-10-20 15:29:13,077 - ERROR - Error fetching Meteostat data (T-2): <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+2025-10-20 15:29:13,077 - WARNING - Meteostat returned no data for any fallback date.
+2025-10-20 15:29:13,078 - WARNING - No Meteostat data to save.
+2025-10-20 15:29:14,191 - ERROR - Error parsing USGS data: type object 'datetime.datetime' has no attribute 'UTC'
+2025-10-20 15:29:14,192 - WARNING - No USGS data to save.
+2025-10-20 15:31:09,907 - INFO - Website metadata loaded from websites.csv
+2025-10-20 15:31:10,025 - INFO - Bitcoin price (API) retrieved successfully: $110729
+2025-10-20 15:31:10,028 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 15:31:11,079 - ERROR - Error fetching Meteostat data (T-1): <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+2025-10-20 15:31:11,130 - ERROR - Error fetching Meteostat data (T-2): <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1077)>
+2025-10-20 15:31:11,131 - WARNING - Meteostat returned no data for any fallback date.
+2025-10-20 15:31:11,131 - WARNING - No Meteostat data to save.
+2025-10-20 15:31:12,288 - INFO - 36 earthquake(s) parsed from USGS.
+2025-10-20 15:31:12,293 - INFO - All USGS records already exist. Skipping save.
+2025-10-20 18:28:27,978 - INFO - Website metadata loaded from websites.csv
+2025-10-20 18:28:28,122 - INFO - Bitcoin price (API) retrieved successfully: $111229
+2025-10-20 18:28:28,124 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 18:28:29,399 - WARNING - Meteostat returned no data.
+2025-10-20 18:28:29,399 - WARNING - No Meteostat data to save.
+2025-10-20 18:28:30,544 - INFO - 31 earthquake(s) parsed from USGS.
+2025-10-20 18:28:30,554 - INFO - USGS data saved to data/usgs.csv
+2025-10-20 18:35:16,986 - INFO - Website metadata loaded from websites.csv
+2025-10-20 18:35:17,122 - INFO - Bitcoin price (API) retrieved successfully: $110814
+2025-10-20 18:35:17,124 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 18:35:18,154 - WARNING - No Meteostat data available in the past 5 days.
+2025-10-20 18:35:18,154 - WARNING - No Meteostat data to save.
+2025-10-20 18:35:19,288 - INFO - 32 earthquake(s) parsed from USGS.
+2025-10-20 18:35:19,297 - INFO - USGS data saved to data/usgs.csv
+2025-10-20 18:46:15,821 - INFO - Website metadata loaded from websites.csv
+2025-10-20 18:46:15,961 - INFO - Bitcoin price (API) retrieved successfully: $110621
+2025-10-20 18:46:15,964 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 18:46:17,120 - INFO - Open-Meteo weather data: {'date': '2025-10-20', 'temperature': 12.4, 'wind_speed': 14.5, 'weather_code': 3, 'source': 'Open-Meteo - Berlin'}
+2025-10-20 18:46:17,125 - INFO - Open-Meteo data saved to data/openmeteo.csv
+2025-10-20 18:46:17,237 - INFO - 33 earthquake(s) parsed from USGS.
+2025-10-20 18:46:17,245 - INFO - USGS data saved to data/usgs.csv
+2025-10-20 18:50:37,607 - INFO - Website metadata loaded from websites.csv
+2025-10-20 18:50:37,725 - INFO - Bitcoin price (API) retrieved successfully: $110243
+2025-10-20 18:50:37,727 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 18:50:38,876 - INFO - Open-Meteo weather data: {'date': '2025-10-20', 'temperature': 12.4, 'wind_speed': 14.5, 'weather_code': 3, 'source': 'Open-Meteo - Berlin'}
+2025-10-20 18:50:38,880 - INFO - Open-Meteo data for today's date already exists. Skipping save.
+2025-10-20 18:50:38,998 - INFO - 33 earthquake(s) parsed from USGS.
+2025-10-20 18:50:39,006 - INFO - All USGS records already exist. Skipping save.
+2025-10-20 19:51:32,426 - INFO - Bitcoin price (API) retrieved successfully: $110385
+2025-10-20 19:51:32,435 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 19:51:32,565 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-20', 'temperature': 11.9, 'wind_speed': 14.0, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-20 19:51:32,569 - INFO - Open-Meteo data saved to data/open_meteo.csv
+2025-10-20 19:51:32,718 - INFO - 31 earthquake(s) parsed from USGS.
+2025-10-20 19:51:32,727 - INFO - USGS data saved to data/usgs.csv
+2025-10-20 21:57:05,095 - INFO - Website metadata loaded from websites.csv
+2025-10-20 21:57:05,226 - INFO - Bitcoin price (API) retrieved successfully: $110827
+2025-10-20 21:57:05,228 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 21:57:06,390 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-20', 'temperature': 11.4, 'wind_speed': 14.2, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-20 21:57:06,396 - INFO - Open-Meteo data for today's date already exists. Skipping save.
+2025-10-20 21:57:06,493 - INFO - 31 earthquake(s) parsed from USGS.
+2025-10-20 21:57:06,500 - INFO - USGS data saved to data/usgs.csv
+2025-10-20 21:57:06,519 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-20 21:59:42,372 - INFO - Website metadata loaded from websites.csv
+2025-10-20 21:59:42,490 - INFO - Bitcoin price (API) retrieved successfully: $110855
+2025-10-20 21:59:42,492 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 21:59:43,632 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-20', 'temperature': 11.4, 'wind_speed': 14.2, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-20 21:59:43,641 - INFO - Open-Meteo data for today's date already exists. Skipping save.
+2025-10-20 21:59:43,739 - INFO - 31 earthquake(s) parsed from USGS.
+2025-10-20 21:59:43,748 - INFO - All USGS records already exist. Skipping save.
+2025-10-20 22:11:46,094 - INFO - Website metadata loaded from websites.csv
+2025-10-20 22:11:46,234 - INFO - Bitcoin price (API) retrieved successfully: $111093
+2025-10-20 22:11:46,236 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-20 22:11:47,399 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-20', 'temperature': 11.4, 'wind_speed': 14.0, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-20 22:11:47,405 - INFO - Open-Meteo data for today's date already exists. Skipping save.
+2025-10-20 22:11:47,499 - INFO - 31 earthquake(s) parsed from USGS.
+2025-10-20 22:11:47,509 - INFO - All USGS records already exist. Skipping save.
+2025-10-21 10:48:26,884 - INFO - Website metadata loaded from websites.csv
+2025-10-21 10:48:27,013 - INFO - Bitcoin price (API) retrieved successfully: $107560
+2025-10-21 10:48:27,017 - INFO - Bitcoin data saved to data/bitcoin.csv
+2025-10-21 10:48:27,037 - ERROR - Error saving Bitcoin data to HDF5: Trying to store a string with len [19] in [values_block_0] column but
+this column has a limit of [11]!
+Consider using min_itemsize to preset the sizes on these columns
+2025-10-21 10:48:28,189 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-21', 'temperature': 11.1, 'wind_speed': 11.8, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-21 10:48:28,196 - INFO - Open-Meteo data saved to data/open_meteo.csv
+2025-10-21 10:48:28,210 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-21 10:48:28,336 - INFO - 27 earthquake(s) parsed from USGS.
+2025-10-21 10:48:28,345 - INFO - USGS data saved to data/usgs.csv
+2025-10-21 10:48:28,356 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-21 10:58:13,765 - INFO - Website metadata loaded from websites.csv
+2025-10-21 10:58:13,887 - INFO - Bitcoin price (API) retrieved successfully: $107771
+2025-10-21 10:58:13,889 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-21 10:58:15,032 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-21', 'temperature': 11.1, 'wind_speed': 11.8, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-21 10:58:15,038 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-21 10:58:15,060 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-21 10:58:15,185 - INFO - 27 earthquake(s) parsed from USGS.
+2025-10-21 10:58:15,194 - INFO - All USGS records already exist. Skipping save.
+2025-10-21 11:00:16,148 - ERROR - Request failed after retries: Could not find a suitable TLS CA certificate bundle, invalid path: /Users/dianalosch/PycharmProjects/scraping_project/.venv/lib/python3.14/site-packages/certifi/cacert.pem
+2025-10-21 11:00:43,622 - ERROR - Request failed after retries: Could not find a suitable TLS CA certificate bundle, invalid path: /Users/dianalosch/PycharmProjects/scraping_project/.venv/lib/python3.14/site-packages/certifi/cacert.pem
+2025-10-21 11:02:39,110 - INFO - Website metadata loaded from websites.csv
+2025-10-21 11:02:39,223 - INFO - Bitcoin price (API) retrieved successfully: $107719
+2025-10-21 11:02:39,225 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-21 11:02:40,371 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-21', 'temperature': 11.2, 'wind_speed': 11.5, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-21 11:02:40,376 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-21 11:02:40,399 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-21 11:02:40,504 - INFO - 27 earthquake(s) parsed from USGS.
+2025-10-21 11:02:40,511 - INFO - All USGS records already exist. Skipping save.
+2025-10-22 11:00:02,401 - INFO - Website metadata loaded from websites.csv
+2025-10-22 11:00:02,558 - INFO - Bitcoin price (API) retrieved successfully: $108285
+2025-10-22 11:00:02,568 - INFO - Bitcoin data saved to data/bitcoin.csv
+2025-10-22 11:00:05,304 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-22', 'temperature': 13.0, 'wind_speed': 7.6, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-22 11:00:05,319 - INFO - Open-Meteo data saved to data/open_meteo.csv
+2025-10-22 11:00:05,361 - ERROR - Error saving weather data to HDF5: '<' not supported between instances of 'str' and 'Timestamp'
+2025-10-22 11:00:05,497 - INFO - 37 earthquake(s) parsed from USGS.
+2025-10-22 11:00:05,515 - INFO - USGS data saved to data/usgs.csv
+2025-10-22 11:00:05,530 - ERROR - Error saving earthquake data to HDF5: '<' not supported between instances of 'str' and 'Timestamp'
+2025-10-23 09:01:03,577 - INFO - 26 earthquake(s) parsed from USGS.
+2025-10-23 09:01:03,585 - INFO - USGS data saved to data/usgs.csv
+2025-10-23 09:01:03,604 - ERROR - Error saving earthquake data to HDF5: '<' not supported between instances of 'str' and 'Timestamp'
+2025-10-23 09:01:16,340 - INFO - 26 earthquake(s) parsed from USGS.
+2025-10-23 09:01:16,346 - INFO - All USGS records already exist. Skipping save.
+2025-10-23 09:03:03,742 - INFO - 26 earthquake(s) parsed from USGS.
+2025-10-23 09:03:03,749 - INFO - All USGS records already exist. Skipping save.
+2025-10-23 09:20:01,434 - INFO - Bitcoin price (API) retrieved successfully: $109880
+2025-10-23 09:20:01,444 - INFO - Bitcoin data saved to data/bitcoin.csv
+2025-10-23 09:20:02,691 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-23', 'temperature': 11.8, 'wind_speed': 12.5, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-23 09:20:02,699 - INFO - Open-Meteo data saved to data/open_meteo.csv
+2025-10-23 09:20:02,731 - ERROR - Error saving weather data to HDF5: '<' not supported between instances of 'str' and 'Timestamp'
+2025-10-23 09:20:02,819 - INFO - 25 earthquake(s) parsed from USGS.
+2025-10-23 09:20:02,825 - INFO - All USGS records already exist. Skipping save.
+2025-10-24 10:52:57,230 - INFO - Bitcoin price (API) retrieved successfully: $111159
+2025-10-24 10:52:57,241 - INFO - Bitcoin data saved to data/bitcoin.csv
+2025-10-24 10:52:57,382 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-24', 'temperature': 11.2, 'wind_speed': 20.9, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-24 10:52:57,386 - INFO - Open-Meteo data saved to data/open_meteo.csv
+2025-10-24 10:52:57,416 - ERROR - Error saving weather data to HDF5: '<' not supported between instances of 'str' and 'Timestamp'
+2025-10-24 10:52:57,528 - INFO - 30 earthquake(s) parsed from USGS.
+2025-10-24 10:52:57,535 - INFO - USGS data saved to data/usgs.csv
+2025-10-24 10:52:57,541 - ERROR - Error saving earthquake data to HDF5: '<' not supported between instances of 'str' and 'Timestamp'
+2025-10-24 11:00:01,249 - INFO - Website metadata loaded from websites.csv
+2025-10-24 11:00:01,393 - INFO - Bitcoin price (API) retrieved successfully: $111126
+2025-10-24 11:00:01,398 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-24 11:00:04,386 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-24', 'temperature': 11.2, 'wind_speed': 20.8, 'weather_code': 80, 'source': 'Open-Meteo API'}
+2025-10-24 11:00:04,396 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-24 11:00:04,435 - ERROR - Error saving weather data to HDF5: '<' not supported between instances of 'str' and 'Timestamp'
+2025-10-24 11:00:04,594 - INFO - 30 earthquake(s) parsed from USGS.
+2025-10-24 11:00:04,615 - INFO - USGS data saved to data/usgs.csv
+2025-10-24 11:00:04,627 - ERROR - Error saving earthquake data to HDF5: '<' not supported between instances of 'str' and 'Timestamp'
+2025-10-24 14:06:29,363 - ERROR - Failed to load CSV file: [Errno 2] No such file or directory: 'websites.csv'
+2025-10-24 14:07:42,646 - ERROR - Failed to load CSV file: [Errno 2] No such file or directory: 'websites.csv'
+2025-10-24 14:07:49,233 - ERROR - Failed to load CSV file: [Errno 2] No such file or directory: 'websites.csv'
+2025-10-25 10:30:01,950 - ERROR - Failed to load CSV file: [Errno 2] No such file or directory: 'websites.csv'
+2025-10-25 10:51:50,505 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-25 10:51:50,628 - INFO - Bitcoin price (API) retrieved successfully: $111642
+2025-10-25 10:51:50,630 - INFO - Bitcoin data saved to ../data/bitcoin.csv
+2025-10-25 10:51:51,775 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-25', 'temperature': 9.9, 'wind_speed': 15.9, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-25 10:51:51,783 - INFO - Open-Meteo data saved to ../data/open_meteo.csv
+2025-10-25 10:51:51,787 - ERROR - Error saving weather data to HDF5: ``/Users/dianalosch/PycharmProjects/scraping_project/scrapers/data`` does not exist
+2025-10-25 10:51:51,912 - INFO - 26 earthquake(s) parsed from USGS.
+2025-10-25 10:51:51,922 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-25 10:51:51,923 - ERROR - Error saving earthquake data to HDF5: ``/Users/dianalosch/PycharmProjects/scraping_project/scrapers/data`` does not exist
+2025-10-26 11:24:02,014 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-26 11:24:02,135 - INFO - Bitcoin price (API) retrieved successfully: $112385
+2025-10-26 11:24:02,137 - INFO - Bitcoin data saved to ../data/bitcoin.csv
+2025-10-26 11:24:03,285 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-26', 'temperature': 8.8, 'wind_speed': 23.2, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-26 11:24:03,292 - INFO - Open-Meteo data saved to ../data/open_meteo.csv
+2025-10-26 11:24:03,295 - ERROR - Error saving weather data to HDF5: ``/Users/dianalosch/PycharmProjects/scraping_project/scrapers/data`` does not exist
+2025-10-26 11:24:03,756 - INFO - 31 earthquake(s) parsed from USGS.
+2025-10-26 11:24:03,767 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-26 11:24:03,769 - ERROR - Error saving earthquake data to HDF5: ``/Users/dianalosch/PycharmProjects/scraping_project/scrapers/data`` does not exist
+2025-10-27 11:11:18,543 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-27 11:11:18,661 - INFO - Bitcoin price (API) retrieved successfully: $115323
+2025-10-27 11:11:18,664 - INFO - Bitcoin data saved to ../data/bitcoin.csv
+2025-10-27 11:11:19,807 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-27', 'temperature': 7.8, 'wind_speed': 17.9, 'weather_code': 61, 'source': 'Open-Meteo API'}
+2025-10-27 11:11:19,810 - INFO - Open-Meteo data saved to ../data/open_meteo.csv
+2025-10-27 11:11:19,833 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 1 total records.
+2025-10-27 11:11:19,833 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-27 11:11:19,931 - INFO - 29 earthquake(s) parsed from USGS.
+2025-10-27 11:11:19,939 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-27 11:11:19,944 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 2 total records.
+2025-10-27 11:11:19,944 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-28 13:10:27,304 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-28 13:10:27,421 - INFO - Bitcoin price (API) retrieved successfully: $114292
+2025-10-28 13:10:27,424 - INFO - Bitcoin data saved to ../data/bitcoin.csv
+2025-10-28 13:10:28,590 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-28', 'temperature': 8.9, 'wind_speed': 16.3, 'weather_code': 61, 'source': 'Open-Meteo API'}
+2025-10-28 13:10:28,596 - INFO - Open-Meteo data saved to ../data/open_meteo.csv
+2025-10-28 13:10:28,607 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 1 total records.
+2025-10-28 13:10:28,607 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-28 13:10:28,702 - INFO - 42 earthquake(s) parsed from USGS.
+2025-10-28 13:10:28,709 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-28 13:10:28,714 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 2 total records.
+2025-10-28 13:10:28,715 - INFO - USGS data also saved to dataset.h5 (HDF5).

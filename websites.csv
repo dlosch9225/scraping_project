@@ -1,0 +1,4 @@
+Website Name,URL,Data Type,Updated Frequency,Allowed to Scrape,Date Accessed,Notes,Scraper Name
+CoinGecko,https://www.coingecko.com/en,Crypto prices,Daily,Yes,2025-10-18,Requires headers for scraping,scrape_coingecko_bitcoin
+Open-Meteo,https://open-meteo.com/,Weather data,Daily,Yes,2025-10-20,Free public API,scrape_open_meteo
+USGS Earthquakes,https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson,Earthquake data,Multiple times per day,Yes,2025-10-18,Public JSON endpoint,scrape_usgs
