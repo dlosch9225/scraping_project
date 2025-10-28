@@ -151,6 +151,20 @@ Each chart includes:
 * 🎯 Clean aesthetics and layout
 * 🔁 Fallback to .csv if HDF5 fails
 
+## 📈 Sample Graphs
+
+### 💰 Bitcoin Price
+
+![Bitcoin](plots/bitcoin_plot.png)
+
+### 🌤️ Berlin Weather (Temperature and Wind)
+
+![Weather](plots/open_meteo_plot.png)
+
+### 🌍 Earthquake Magnitudes
+
+![Earthquakes](plots/usgs_plot.png)
+
 ## 🧪 Testing & Validation
 
 * Manual insertion of synthetic data for plotting

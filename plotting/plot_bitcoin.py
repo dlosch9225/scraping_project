@@ -11,7 +11,7 @@ df["date"] = pd.to_datetime(df["date"])
 df = df.sort_values("date")
 
 # Plotting
-fig, ax = plt.subplots(figsize=(12, 6))
+fig, ax = plt.subplots(figsize=(10, 5))
 
 # Unique dates
 unique_dates = df["date"].dt.date.unique()
@@ -33,8 +33,9 @@ ax.text(1.0, -0.15, "Source: CoinGecko API", transform=ax.transAxes,
 ax.set_xlabel("Date", fontsize=10, labelpad=10, fontweight='bold')
 ax.set_ylabel("Price (USD)", fontsize=10, labelpad=10, fontweight='bold')
 
-ax.set_yticks(range(105000, 114001, 1000))
+ax.set_ylim(df["value"].min() - 3000, df["value"].max() + 3000)
 ax.yaxis.set_major_formatter(FuncFormatter(lambda x, _: f'{x/1000:.0f}k'))
+
 ax.yaxis.grid(True, linestyle='--', alpha=0.5)
 
 # Remove top and right borders (spines)
