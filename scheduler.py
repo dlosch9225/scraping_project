@@ -43,37 +43,10 @@ from scrapers.scraper import (
 )
 
 # -------------------- JOB DEFINITION --------------------
-
-def should_run_today() -> bool:
-    """
-    Checks if the current date is within a 9-day window
-    starting from the date stored in 'scheduler_state.txt'.
-    """
-    if not os.path.exists(STATE_FILE):
-        logging.warning("State file not found.")
-        return False
-
-    try:
-        with open(STATE_FILE, "r") as f:
-            start_date_str = f.read().strip()
-        start_date = datetime.strptime(start_date_str, "%Y-%m-%d")
-    except Exception as e:
-        logging.error(f"Could not parse start date: {e}")
-        return False
-
-    today = datetime.now()
-    return today <= start_date + timedelta(days=15)
-
-
 def job():
     """
-    Executes all scraper functions if within the 9-day window.
+    Executes all scraper functions daily.
     """
-    if not should_run_today():
-        print("⏹ Execution window ended. Skipping job.")
-        logging.info("Skipped job — outside valid window.")
-        return
-
     print("⏰ Running scheduled scrapers...")
     logging.info("Started job...")
 
@@ -109,6 +82,7 @@ def job():
 
     print("✅ All scrapers completed.\n")
     logging.info("All scrapers completed.\n")
+
 
 # -------------------- SCHEDULER SETUP --------------------
 

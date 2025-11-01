@@ -1,10 +1,16 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib.ticker import FuncFormatter
 from scrapers.data_utils import load_data
+from scrapers.storage import save_to_hdf
 
 df = load_data("bitcoin.csv", "bitcoin")
+save_to_hdf(df, "bitcoin")
 
 # Convert 'date' to datetime and sort
 df["date"] = pd.to_datetime(df["date"])
@@ -23,7 +29,9 @@ ax.plot(df["date"], df["value"], marker='o', color='blue', label="Bitcoin Price"
 # Format x-axis
 ax.xaxis.set_major_locator(mdates.DayLocator())
 ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-plt.xticks(rotation=0)
+ax.xaxis.set_major_locator(mdates.DayLocator(interval=3))
+plt.xticks(fontsize=8)
+plt.xticks(rotation=10)
 
 
 # Labels and title
@@ -49,6 +57,11 @@ ax.legend(loc='upper left', bbox_to_anchor=(0, -0.10), frameon=False)
 
 # Tight layout
 plt.tight_layout()
+
+# ✅ Save to plots directory
+os.makedirs("plots", exist_ok=True)
+plt.savefig("plots/bitcoin_plot.png", dpi=300)
+
 
 # Show plot
 plt.show()

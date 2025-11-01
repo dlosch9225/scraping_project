@@ -11,57 +11,59 @@ Data is saved in both **CSV** and **HDF5** formats. A scheduler runs the scraper
 
 ## 📚 Table of Contents
 
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Automation](#automation)
-- [Data Storage Format](#data-storage-format)
-- [Data Structure](#data-structure)
-- [Visualization](#visualization)
-- [Testing & Validation](#testing--validation)
-- [Known Limitations](#known-limitations)
-- [Requirements](#requirements)
-- [License](#license)
+- [✨ Features](#-features)
+- [🏗️ Project Structure](#️-project-structure)
+- [⚙️ Installation](#️-installation)
+- [🚀 Usage](#-usage)
+- [⏰ Automation](#-automation)
+- [💾 Data Storage Format](#-data-storage-format)
+- [🌐 Data Source Metadata](#-data-source-metadata)
+- [⚖️ Legal & Ethical Compliance](#️-legal--ethical-compliance)
+- [🗂 Data Structure Example](#-data-structure-example)
+- [📊 Visualization](#-visualization)
+- [🧩 Value Added Through Visualization](#-value-added-through-visualization)
+- [📈 Sample Graphs](#-sample-graphs)
+- [🧪 Testing & Validation](#-testing--validation)
+- [❗ Known Limitations](#-known-limitations)
+- [📦 Requirements](#-requirements)
+- [🔭 Meta Perspective & Comparison with Best Practices](#-meta-perspective--comparison-with-best-practices)
+- [📄 License](#-license)
+- [📬 Contact](#-contact)
 
 ---
 
 ## ✨ Features
 
-- ⏱️ **Automated daily scraping** at 11:00 AM (via `cron`)
-- 💾 **Dual storage**: CSV + HDF5 with deduplication
-- 📊 **Clean and styled visualizations** with Matplotlib
-- 🧠 **Retry logic** and **error handling** for API calls
-- 🧪 Modular, testable, and easy to expand
+- ⏱️ **Automated daily scraping** at 11:00 AM (via `cron`).
+- 💾 **Dual storage**: CSV + HDF5 with deduplication.
+- 📊 **Clean and styled visualizations** with Matplotlib.
+- 🧪 Modular, testable, and easy to expand.
 
 ---
 
 ## 🏗️ Project Structure
+Below is the real folder structure of this project. This structure supports modular development, maintenance, and reproducibility.
 
 ```
 scraping_project/
-├── data/                    # CSVs and HDF5 data storage
-├── logs/                    # All logs + scheduler state
-├── scrapers/               # Core scraping logic
-│   ├── scraper.py
-│   ├── data_utils.py
-├── plotting/               # All plots and visualizations
-│   ├── plot_bitcoin.py
-│   ├── open_meteo.py
-│   ├── plot_usgs.py
-├── scripts/                # Utility/debugging scripts
-│   ├── force_update_hdf5.py
-│   ├── inspect_hdf5.py
-├── scheduler.py            # Daily job manager
-├── start_scheduler.sh      # Script launched by cron
-├── storage.py              # HDF5 logic
-├── requirements.txt
-└── websites.csv            # Metadata of scraped sources
+├── data/                # All collected data (CSV + main HDF5 storage)
+├── logs/                # Logs from scrapers and scheduler
+├── scrapers/            # Web scrapers for Bitcoin, weather, earthquakes
+├── plotting/            # Scripts to visualize time-series data
+├── scripts/             # Utility tools: backup, inspect, update HDF5, etc.
+├── backups/             # Timestamped HDF5 dataset backups
+├── storage.py           # Central HDF5 handling (read/write, deduplication)
+├── scheduler.py         # Daily task manager (used with cron)
+├── start_scheduler.sh   # Launch script for automation via cron
+├── websites.csv         # Metadata of all scraped sources
+├── requirements.txt     # Python dependencies
+└── README.md            # Project documentation 
+
 ```
 
 ## ⚙️ Installation
 
-#### 1.  the repo:
+#### 1.  The repo:
 ```
 git clone https://github.com/your_username/scraping_project.git
 cd scraping_project
@@ -92,8 +94,8 @@ python plotting/plot_bitcoin.py
 
 The project uses cron to:
 
-* Start the scheduler at system reboot
-* Trigger scrapers daily at 11:00 AM
+* Start the scheduler at system reboot.
+* Trigger scrapers daily at 11:00 AM.
 
 #### Cron Configuration Example (macOS/Linux)
 ```
@@ -103,9 +105,9 @@ The project uses cron to:
 
 Ensure:
 
-* start_scheduler.sh is executable (chmod +x)
-* The Python virtual environment path is correct
-* System is awake at 11:00 AM
+* start_scheduler.sh is executable (chmod +x).
+* The Python virtual environment path is correct.
+* System is awake at 11:00 AM.
 
 ## 💾 Data Storage Format
 
@@ -113,18 +115,49 @@ The project uses both CSV and HDF5 for persistent storage.
 
 ### Why HDF5?
 
-* 🔁 Fast reading/writing of large tables
-* 📅 Easy time-based filtering
-* 🔒 Deduplication by date
-* 🔗 Integrated with pandas.HDFStore
+* 🔁 Fast reading/writing of large tables.
+* 📅 Easy time-based filtering.
+* 🔒 Deduplication by date.
+* 🔗 Integrated with pandas.HDFStore.
 
-#### HDF5 File Structure
+#### HDF5 File Structure:
 
 | Data Source      | HDF5 Key      | CSV File              |
 | ---------------- | ------------- | --------------------- |
 | CoinGecko BTC    | `bitcoin`     | `data/bitcoin.csv`    |
 | Open-Meteo       | `weather`     | `data/open_meteo.csv` |
 | USGS Earthquakes | `earthquakes` | `data/usgs.csv`       |
+
+
+## 🌐 Data Source Metadata
+
+The metadata for all web sources is stored in [`websites.csv`](./websites.csv), which includes:
+
+- ✅ Website name
+- ✅ URL
+- ✅ Description
+- ✅ Type of access (API or webpage)
+- ✅ Notes on compliance and usage terms
+
+This allows for easy replacement or expansion of data sources without changing the Python code.
+
+## ⚖️ Legal & Ethical Compliance
+
+All data sources used in this project were chosen based on their availability for **public and non-commercial academic use**. Below is a summary:
+
+| Source       | Compliance Notes                                                                                   |
+|--------------|----------------------------------------------------------------------------------------------------|
+| CoinGecko    | Public API. Free for educational and non-commercial use. No authentication required. [Docs](https://www.coingecko.com/en/api/documentation) |
+| Open-Meteo   | Open API with no key required. Designed for open access and academic use. [Docs](https://open-meteo.com/en/docs) |
+| USGS         | U.S. Government data. Fully public and freely accessible. [Docs](https://earthquake.usgs.gov/data/comcat/documentation.php) |
+
+The project ensures respectful access patterns:
+- Limited to once-daily requests
+- Uses official APIs when available
+- Respects server limits and usage conditions
+
+⚠️ No scraping of private, login-protected, or copyrighted content.
+
 
 ## 🗂 Data Structure Example
 
@@ -146,39 +179,50 @@ Once data is collected over multiple days, the following graphs are generated:
 
 Each chart includes:
 
-* 📅 Date-based X-axis
-* 🏷️ Proper labeling and units (e.g., $, °C, magnitude)
-* 🎯 Clean aesthetics and layout
-* 🔁 Fallback to .csv if HDF5 fails
+* 📅 Date-based X-axis.
+* 🏷️ Proper labeling and units (e.g., $, °C, magnitude).
+* 🎯 Clean aesthetics and layout.
+* 🔁 Fallback to .csv if HDF5 fails.
+
+## 🧩 Value Added Through Visualization
+
+Visualizing numeric trends over time provides actionable insights that static values do not.
+
+Examples:
+- 💰 **Bitcoin volatility** shows the potential impact on financial planning or investment strategies.
+- 🌤️ **Weather changes** could influence logistics, events, or energy management.
+- 🌍 **Earthquake frequency** offers early indications of potential seismic clusters.
+
+The automated visualizations produced by this system allow decision-makers to monitor key variables over time, helping move from reactive to proactive decisions.
 
 ## 📈 Sample Graphs
 
 ### 💰 Bitcoin Price
 
-![Bitcoin](plots/bitcoin_plot.png)
+![Bitcoin](plotting/plots/bitcoin_plot.png)
 
 ### 🌤️ Berlin Weather (Temperature and Wind)
 
-![Weather](plots/open_meteo_plot.png)
+![Weather](plotting/plots/open_meteo_plot.png)
 
 ### 🌍 Earthquake Magnitudes
 
-![Earthquakes](plots/usgs_plot.png)
+![Earthquakes](plotting/plots/usgs_plot.png)
 
 ## 🧪 Testing & Validation
 
-* Manual insertion of synthetic data for plotting
-* Tested fallback to CSV when HDF5 unavailable
-* Verified scheduler triggers scraping
-* Handled API downtime with retry logic
-* Verified deduplication in CSV and HDF5
+* Manual insertion of synthetic data for plotting.
+* Tested fallback to CSV when HDF5 unavailable.
+* Verified scheduler triggers scraping.
+* Handled API downtime with retry logic.
+* Verified deduplication in CSV and HDF5.
 
 ## ❗ Known Limitations
 
-* 💡 System must be on (not sleeping) at 11:00 AM for cron to run
-* 🔌 Internet connection required for scraping APIs
-* 🧠 Requires periodic check of scheduler_state.txt
-* 🛠️ Scheduler state does not reset automatically after 9 days
+* 💡 System must be on (not sleeping) at 11:00 AM for cron to run.
+* 🔌 Internet connection required for scraping APIs.
+* 🧠 Requires periodic check of scheduler_state.txt.
+* 🛠️ Scheduler state does not reset automatically after 9 days.
 
 ## 📦 Requirements
 
@@ -215,6 +259,30 @@ typing_extensions==4.15.0
 tzdata==2025.2
 urllib3==2.5.0
 ```
+
+## 🔭 Meta Perspective & Comparison with Best Practices
+
+This project follows industry-standard practices for data scraping, automation, and storage:
+
+| Practice Area         | Applied Approach in Project                                   |
+|----------------------|---------------------------------------------------------------|
+| Scraping strategy     | Uses public APIs (not fragile HTML parsing)                  |
+| Modularity            | Separate files for scraping, storage, visualization           |
+| Automation            | Cron-based scheduler for daily updates                        |
+| Storage model         | HDF5 for time-series compatibility and deduplication         |
+| Data structure        | Clean tabular format with typed fields                       |
+| Validation            | Manual testing, fallback logic, and logging                  |
+
+### 🧠 Academic & Industry Inspiration:
+
+- **"Python Data Science Handbook"** by Jake VanderPlas – for best practices in pandas, storage, and visualization.
+- Open projects like `covid-data-scraper`, `cryptowatch`, and academic dashboards.
+- IU's own course materials on scraping, data cleaning, and time-series data management.
+
+### 🎓 Conclusion
+
+Compared to other academic or open-source scraping projects, this approach is robust, reproducible, and extensible. It demonstrates not just technical capability, but thoughtful architecture and data quality awareness—core pillars of Data Wrangling and Data Quality.
+
 ## 📄 License
 
 This project was developed for the academic module:

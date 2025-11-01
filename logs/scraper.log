@@ -332,3 +332,233 @@ Consider using min_itemsize to preset the sizes on these columns
 2025-10-28 13:10:28,709 - INFO - USGS data saved to ../data/usgs.csv
 2025-10-28 13:10:28,714 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 2 total records.
 2025-10-28 13:10:28,715 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-31 18:20:58,537 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 18:20:58,788 - INFO - Bitcoin price (API) retrieved successfully: $108760
+2025-10-31 18:20:58,792 - INFO - Bitcoin data saved to ../data/bitcoin.csv
+2025-10-31 18:20:59,959 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 10.3, 'wind_speed': 10.2, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 18:20:59,966 - INFO - Open-Meteo data saved to ../data/open_meteo.csv
+2025-10-31 18:20:59,995 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 1 total records.
+2025-10-31 18:20:59,995 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 18:21:00,302 - INFO - 32 earthquake(s) parsed from USGS.
+2025-10-31 18:21:00,315 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-31 18:21:00,325 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 2 total records.
+2025-10-31 18:21:00,325 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-31 18:21:48,202 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 18:21:48,496 - INFO - Bitcoin price (API) retrieved successfully: $108760
+2025-10-31 18:21:48,501 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-31 18:21:49,655 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 10.3, 'wind_speed': 10.2, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 18:21:49,660 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 18:21:49,674 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 1 total records.
+2025-10-31 18:21:49,674 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 18:21:49,776 - INFO - 32 earthquake(s) parsed from USGS.
+2025-10-31 18:21:49,785 - INFO - All USGS records already exist. Skipping save.
+2025-10-31 19:13:47,692 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 19:13:47,904 - INFO - Bitcoin price (API) retrieved successfully: $109391
+2025-10-31 19:13:47,907 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-31 19:13:49,082 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 9.9, 'wind_speed': 10.2, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 19:13:49,086 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 19:13:49,105 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 19:13:49,105 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 19:13:49,458 - INFO - 31 earthquake(s) parsed from USGS.
+2025-10-31 19:13:49,473 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-31 19:13:49,482 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 1 total records.
+2025-10-31 19:13:49,482 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-31 19:30:57,198 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 19:30:57,581 - INFO - Bitcoin price (API) retrieved successfully: $109207
+2025-10-31 19:30:57,586 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-31 19:30:58,806 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 9.8, 'wind_speed': 9.2, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 19:30:58,811 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 19:30:58,823 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 19:30:58,823 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 19:30:58,914 - INFO - 34 earthquake(s) parsed from USGS.
+2025-10-31 19:30:58,922 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-31 19:30:58,929 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 1 total records.
+2025-10-31 19:30:58,929 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-31 19:36:02,501 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 19:36:02,762 - INFO - Bitcoin price (API) retrieved successfully: $108986
+2025-10-31 19:36:02,765 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-31 19:36:03,961 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 9.8, 'wind_speed': 9.2, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 19:36:03,968 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 19:36:03,990 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 19:36:03,991 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 19:36:04,315 - INFO - 34 earthquake(s) parsed from USGS.
+2025-10-31 19:36:04,330 - INFO - All USGS records already exist. Skipping save.
+2025-10-31 20:01:09,541 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 20:01:09,662 - INFO - Bitcoin price (API) retrieved successfully: $109380
+2025-10-31 20:01:09,664 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-31 20:01:10,815 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 9.6, 'wind_speed': 8.4, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 20:01:10,823 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 20:01:10,845 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 20:01:10,845 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 20:01:10,965 - INFO - 35 earthquake(s) parsed from USGS.
+2025-10-31 20:01:10,976 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-31 20:01:10,987 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 1 total records.
+2025-10-31 20:01:10,987 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-31 20:03:14,255 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 20:03:43,908 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 20:03:44,016 - INFO - Bitcoin price (API) retrieved successfully: $109256
+2025-10-31 20:03:44,019 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-10-31 20:03:44,031 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 2 total records.
+2025-10-31 20:03:44,031 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-10-31 20:03:45,170 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 9.6, 'wind_speed': 8.4, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 20:03:45,174 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 20:03:45,187 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 20:03:45,187 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 20:03:45,294 - INFO - 35 earthquake(s) parsed from USGS.
+2025-10-31 20:03:45,302 - INFO - All USGS records already exist. Skipping save.
+2025-10-31 20:06:41,204 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 20:06:41,449 - INFO - Bitcoin price (API) retrieved successfully: $109137
+2025-10-31 20:06:41,452 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-10-31 20:06:41,470 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 2 total records.
+2025-10-31 20:06:41,470 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-10-31 20:06:42,623 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 9.6, 'wind_speed': 8.4, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 20:06:42,630 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 20:06:42,647 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 20:06:42,647 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 20:06:43,036 - INFO - 36 earthquake(s) parsed from USGS.
+2025-10-31 20:06:43,048 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-31 20:06:43,060 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 1 total records.
+2025-10-31 20:06:43,060 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-31 20:10:34,562 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 20:10:34,706 - INFO - Bitcoin price (API) retrieved successfully: $109155
+2025-10-31 20:10:34,709 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-10-31 20:10:34,722 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 2 total records.
+2025-10-31 20:10:34,722 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-10-31 20:10:36,067 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 9.6, 'wind_speed': 8.4, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 20:10:36,076 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 20:10:36,093 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 20:10:36,093 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 20:10:36,204 - INFO - 36 earthquake(s) parsed from USGS.
+2025-10-31 20:10:36,215 - INFO - All USGS records already exist. Skipping save.
+2025-10-31 20:18:53,207 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-10-31 20:18:53,318 - INFO - Bitcoin price (API) retrieved successfully: $109383
+2025-10-31 20:18:53,321 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-10-31 20:18:53,335 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 2 total records.
+2025-10-31 20:18:53,335 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-10-31 20:18:54,487 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 9.5, 'wind_speed': 8.9, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 20:18:54,494 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 20:18:54,512 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 20:18:54,512 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 20:18:54,614 - INFO - 36 earthquake(s) parsed from USGS.
+2025-10-31 20:18:54,624 - INFO - All USGS records already exist. Skipping save.
+2025-11-01 12:23:14,055 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 12:23:14,180 - INFO - Bitcoin price (API) retrieved successfully: $110104
+2025-11-01 12:23:14,183 - INFO - Bitcoin data saved to ../data/bitcoin.csv
+2025-11-01 12:23:14,215 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 3 total records.
+2025-11-01 12:23:14,215 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 12:23:15,510 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 14.1, 'wind_speed': 9.3, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-11-01 12:23:15,518 - INFO - Open-Meteo data saved to ../data/open_meteo.csv
+2025-11-01 12:23:15,535 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 3 total records.
+2025-11-01 12:23:15,535 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 12:23:15,762 - INFO - 39 earthquake(s) parsed from USGS.
+2025-11-01 12:23:15,773 - INFO - USGS data saved to ../data/usgs.csv
+2025-11-01 12:23:15,783 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 2 total records.
+2025-11-01 12:23:15,783 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-11-01 12:51:16,952 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 12:51:17,068 - INFO - Bitcoin price (API) retrieved successfully: $110024
+2025-11-01 12:51:17,071 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-11-01 12:51:17,088 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 3 total records.
+2025-11-01 12:51:17,088 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 12:51:18,244 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 14.9, 'wind_speed': 9.8, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-11-01 12:51:18,249 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-11-01 12:51:18,265 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 3 total records.
+2025-11-01 12:51:18,265 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 12:51:18,388 - INFO - 38 earthquake(s) parsed from USGS.
+2025-11-01 12:51:18,400 - INFO - USGS data saved to ../data/usgs.csv
+2025-11-01 12:51:18,412 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 2 total records.
+2025-11-01 12:51:18,412 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-11-01 12:59:23,838 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 12:59:23,979 - INFO - Bitcoin price (API) retrieved successfully: $110060
+2025-11-01 12:59:23,982 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-11-01 12:59:24,005 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 1 total records.
+2025-11-01 12:59:24,005 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 12:59:25,148 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 14.9, 'wind_speed': 9.8, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-11-01 12:59:25,155 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-11-01 12:59:25,166 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 1 total records.
+2025-11-01 12:59:25,166 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 12:59:25,302 - INFO - 38 earthquake(s) parsed from USGS.
+2025-11-01 12:59:25,316 - INFO - All USGS records already exist. Skipping save.
+2025-11-01 15:36:45,442 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 15:36:45,559 - INFO - Bitcoin price (API) retrieved successfully: $109838
+2025-11-01 15:36:45,563 - INFO - Bitcoin data saved to ../data/bitcoin.csv
+2025-11-01 15:36:45,584 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 1 total records.
+2025-11-01 15:36:45,584 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 15:36:46,723 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 15.5, 'wind_speed': 10.4, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-11-01 15:36:46,730 - INFO - Open-Meteo data saved to ../data/open_meteo.csv
+2025-11-01 15:36:46,747 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 1 total records.
+2025-11-01 15:36:46,747 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 15:36:46,856 - INFO - 34 earthquake(s) parsed from USGS.
+2025-11-01 15:36:46,867 - INFO - USGS data saved to ../data/usgs.csv
+2025-11-01 15:36:46,876 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 2 total records.
+2025-11-01 15:36:46,876 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-11-01 15:45:48,105 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 15:45:48,222 - INFO - Bitcoin price (API) retrieved successfully: $109879
+2025-11-01 15:45:48,225 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-11-01 15:45:48,236 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 2 total records.
+2025-11-01 15:45:48,236 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 15:45:49,385 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 15.4, 'wind_speed': 10.1, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-11-01 15:45:49,392 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-11-01 15:45:49,408 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 1 total records.
+2025-11-01 15:45:49,408 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 15:45:49,525 - INFO - 34 earthquake(s) parsed from USGS.
+2025-11-01 15:45:49,538 - INFO - USGS data saved to ../data/usgs.csv
+2025-11-01 15:45:49,546 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 2 total records.
+2025-11-01 15:45:49,546 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-11-01 15:47:56,032 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 15:47:56,125 - INFO - Bitcoin price (API) retrieved successfully: $109881
+2025-11-01 15:47:56,127 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-11-01 15:47:56,137 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 2 total records.
+2025-11-01 15:47:56,137 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 15:47:57,293 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 15.4, 'wind_speed': 10.1, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-11-01 15:47:57,298 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-11-01 15:47:57,314 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 1 total records.
+2025-11-01 15:47:57,314 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 15:47:57,424 - INFO - 34 earthquake(s) parsed from USGS.
+2025-11-01 15:47:57,434 - INFO - All USGS records already exist. Skipping save.
+2025-11-01 16:14:58,802 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 16:14:58,922 - INFO - Bitcoin price (API) retrieved successfully: $110190
+2025-11-01 16:14:58,924 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-11-01 16:14:58,937 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 16:15:00,115 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 15.1, 'wind_speed': 9.9, 'weather_code': 61, 'source': 'Open-Meteo API'}
+2025-11-01 16:15:00,128 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-11-01 16:15:00,144 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 16:15:00,262 - INFO - 35 earthquake(s) parsed from USGS.
+2025-11-01 16:15:00,273 - INFO - USGS data saved to ../data/usgs.csv
+2025-11-01 16:15:00,284 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-11-01 16:23:03,137 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 16:23:03,263 - INFO - Bitcoin price (API) retrieved successfully: $110152
+2025-11-01 16:23:03,266 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-11-01 16:23:03,279 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 16:23:04,418 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 15.1, 'wind_speed': 9.9, 'weather_code': 61, 'source': 'Open-Meteo API'}
+2025-11-01 16:23:04,420 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-11-01 16:23:04,428 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 16:23:04,529 - INFO - 35 earthquake(s) parsed from USGS.
+2025-11-01 16:23:04,536 - INFO - USGS data saved to ../data/usgs.csv
+2025-11-01 16:23:04,545 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-11-01 16:32:42,609 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 16:32:42,721 - INFO - Bitcoin price (API) retrieved successfully: $110056
+2025-11-01 16:32:42,723 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-11-01 16:32:42,735 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 16:32:43,905 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 14.8, 'wind_speed': 9.7, 'weather_code': 61, 'source': 'Open-Meteo API'}
+2025-11-01 16:32:43,911 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-11-01 16:32:43,927 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 16:32:44,039 - INFO - 35 earthquake(s) parsed from USGS.
+2025-11-01 16:32:44,049 - INFO - All USGS records already exist. Skipping save.
+2025-11-01 16:33:05,853 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 16:33:05,962 - INFO - Bitcoin price (API) retrieved successfully: $110056
+2025-11-01 16:33:05,964 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-11-01 16:33:05,977 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 16:33:07,105 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 14.8, 'wind_speed': 9.7, 'weather_code': 61, 'source': 'Open-Meteo API'}
+2025-11-01 16:33:07,110 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-11-01 16:33:07,126 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 16:33:07,199 - INFO - 35 earthquake(s) parsed from USGS.
+2025-11-01 16:33:07,206 - INFO - All USGS records already exist. Skipping save.
+2025-11-01 16:35:05,210 - INFO - Website metadata loaded successfully from /Users/dianalosch/PycharmProjects/scraping_project/websites.csv
+2025-11-01 16:35:05,325 - INFO - Bitcoin price (API) retrieved successfully: $110107
+2025-11-01 16:35:05,329 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-11-01 16:35:05,342 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-11-01 16:35:06,488 - INFO - Open-Meteo weather data retrieved: {'date': '2025-11-01', 'temperature': 14.8, 'wind_speed': 9.7, 'weather_code': 61, 'source': 'Open-Meteo API'}
+2025-11-01 16:35:06,496 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-11-01 16:35:06,511 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-11-01 16:35:06,642 - INFO - 35 earthquake(s) parsed from USGS.
+2025-11-01 16:35:06,652 - INFO - All USGS records already exist. Skipping save.

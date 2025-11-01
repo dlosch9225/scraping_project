@@ -2,11 +2,12 @@
 Scraper Script for Multiple Data Sources
 
 This script loads website metadata, scrapes current data
-(Bitcoin price from CoinGecko, weather from Meteostat, and earthquakes from USGS),
+(Bitcoin price from CoinGecko, weather from Open-Meteo, and earthquakes from USGS),
 and saves it into CSV files, ensuring there are no duplicate entries for the same date.
 Includes logging and retry logic for robustness.
 """
 
+import sys
 import os
 import time
 import logging
@@ -16,8 +17,17 @@ from datetime import datetime, timezone
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 
+# ✅ Add the project root directory to Python path (so imports work no matter where we run it)
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
+
+# ✅ Correct import (your storage.py is at project root)
 from storage import save_to_hdf
 
+# 🧪 Debug: confirm which storage module is loaded
+import storage
+print(f"📂 STORAGE MODULE PATH: {storage.__file__}")
 
 
 # ---------- CONFIGURATION ----------
@@ -29,12 +39,18 @@ USGS_CSV = os.path.join(DATA_DIR, "usgs.csv")
 # Ensure the data directory exists
 os.makedirs(DATA_DIR, exist_ok=True)
 
-# Configure logging
+# Ensure logs directory exists and configure logging
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+LOG_DIR = os.path.join(BASE_DIR, "logs")
+os.makedirs(LOG_DIR, exist_ok=True)
+
+LOG_FILE = os.path.join(LOG_DIR, "scraper.log")
 logging.basicConfig(
-    filename="../logs/scraper.log",
+    filename=LOG_FILE,
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
+
 
 # ---------- HELPER FUNCTIONS ----------
 
@@ -57,6 +73,7 @@ def get_with_retry(url, headers=None, params=None, retries=3, backoff_factor=0.5
     except Exception as e:
         logging.error(f"Request failed after retries: {e}")
         return None
+
 
 # ---------- SCRAPER FUNCTIONS ----------
 
@@ -113,14 +130,26 @@ def save_bitcoin_data(df: pd.DataFrame):
         logging.warning("No Bitcoin data to save.")
         return
 
+    # Default: do not save to CSV if today's data exists
+    save_csv = True
+
     if os.path.exists(BITCOIN_CSV):
         existing = pd.read_csv(BITCOIN_CSV)
         if not df.empty and "date" in df.columns and df.iloc[0]["date"] in existing["date"].values:
-            logging.info("Bitcoin data for today's date already exists. Skipping save.")
-            return
+            logging.info("Bitcoin data for today's date already exists. Skipping CSV save.")
+            save_csv = False
 
-    df.to_csv(BITCOIN_CSV, mode="a", header=not os.path.exists(BITCOIN_CSV), index=False)
-    logging.info(f"Bitcoin data saved to {BITCOIN_CSV}")
+    if save_csv:
+        df.to_csv(BITCOIN_CSV, mode="a", header=not os.path.exists(BITCOIN_CSV), index=False)
+        logging.info(f"Bitcoin data saved to {BITCOIN_CSV}")
+
+    # ✅ Always attempt to save to HDF5, even if it exists in CSV
+    try:
+        save_to_hdf(df, "bitcoin")
+        logging.info("Bitcoin data also saved to dataset.h5 (HDF5).")
+    except Exception as e:
+        logging.error(f"Error saving Bitcoin data to HDF5: {e}")
+
 
 
 def scrape_open_meteo(latitude: float = 52.52, longitude: float = 13.405) -> pd.DataFrame:
@@ -168,34 +197,30 @@ def scrape_open_meteo(latitude: float = 52.52, longitude: float = 13.405) -> pd.
 
 
 def save_open_meteo_data(df: pd.DataFrame):
-    """
-    Save Open-Meteo weather data to CSV and HDF5, avoiding duplicates in CSV.
-    """
     filename = "../data/open_meteo.csv"
 
     if df.empty:
         logging.warning("No Open-Meteo data to save.")
         return
 
-    # Check if already exist in CSV
-    already_exists = False
+    save_csv = True
     if os.path.exists(filename):
         existing = pd.read_csv(filename)
-        if not df.empty and "date" in df.columns and df.iloc[0]["date"] in existing["date"].values:
+        if df.iloc[0]["date"] in existing["date"].values:
             logging.info("Open-Meteo data for today's date already exists. Skipping CSV save.")
-            already_exists = True
+            save_csv = False
 
-    # Keep in CSV just if is a new register
-    if not already_exists:
+    if save_csv:
         df.to_csv(filename, mode="a", header=not os.path.exists(filename), index=False)
         logging.info(f"Open-Meteo data saved to {filename}")
 
-    # 👉 Keep always in HDF5
+    # ✅ Always save to HDF5
     try:
         save_to_hdf(df, "weather")
         logging.info("Open-Meteo data also saved to dataset.h5 (HDF5).")
     except Exception as e:
         logging.error(f"Error saving weather data to HDF5: {e}")
+
 
 
 
@@ -285,7 +310,7 @@ def main():
     # CoinGecko
     df_btc = scrape_coingecko_bitcoin()
     if not df_btc.empty:
-        print(f"\nBitcoin price scraped: ${df_btc.iloc[0]['value']:,.2f}")
+        print(f"\nBitcoin price scraped ({df_btc.iloc[0]['date']}): ${df_btc.iloc[0]['value']:,.2f}")
     else:
         print("\nBitcoin price not available.")
     save_bitcoin_data(df_btc)

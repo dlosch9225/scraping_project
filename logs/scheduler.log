@@ -74,3 +74,69 @@
 2025-10-28 14:03:41,655 - INFO - ✅ Earthquake data saved.
 2025-10-28 14:03:41,656 - INFO - All scrapers completed.
 
+2025-10-31 11:02:51,854 - INFO - NumExpr defaulting to 8 threads.
+2025-10-31 11:02:52,468 - INFO - Scheduler initialized.
+2025-10-31 16:41:02,505 - INFO - NumExpr defaulting to 8 threads.
+2025-10-31 16:41:02,709 - INFO - Scheduler initialized.
+2025-10-31 16:43:11,455 - INFO - NumExpr defaulting to 8 threads.
+2025-10-31 16:43:11,600 - INFO - Scheduler initialized.
+2025-10-31 16:44:11,609 - INFO - Started job...
+2025-10-31 16:44:11,761 - INFO - Bitcoin price (API) retrieved successfully: $110201
+2025-10-31 16:44:11,770 - INFO - Bitcoin data saved to ../data/bitcoin.csv
+2025-10-31 16:44:11,770 - INFO - ✅ Bitcoin data saved.
+2025-10-31 16:44:11,908 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 11.6, 'wind_speed': 9.7, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 16:44:11,912 - INFO - Open-Meteo data saved to ../data/open_meteo.csv
+2025-10-31 16:44:11,952 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 16:44:11,952 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 16:44:11,952 - INFO - ✅ Weather data saved.
+2025-10-31 16:44:12,051 - INFO - 30 earthquake(s) parsed from USGS.
+2025-10-31 16:44:12,057 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-31 16:44:12,066 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 2 total records.
+2025-10-31 16:44:12,066 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-31 16:44:12,066 - INFO - ✅ Earthquake data saved.
+2025-10-31 16:44:12,066 - INFO - All scrapers completed.
+
+2025-10-31 17:10:36,217 - INFO - NumExpr defaulting to 8 threads.
+2025-10-31 17:10:36,407 - INFO - Scheduler initialized.
+2025-10-31 17:11:36,413 - INFO - Started job...
+2025-10-31 17:11:36,588 - INFO - Bitcoin price (API) retrieved successfully: $110016
+2025-10-31 17:11:36,596 - INFO - Bitcoin data for today's date already exists. Skipping save.
+2025-10-31 17:11:36,596 - INFO - ✅ Bitcoin data saved.
+2025-10-31 17:11:36,724 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 11.3, 'wind_speed': 9.7, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 17:11:36,727 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 17:11:36,753 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 1 total records.
+2025-10-31 17:11:36,753 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 17:11:36,753 - INFO - ✅ Weather data saved.
+2025-10-31 17:11:36,854 - INFO - 31 earthquake(s) parsed from USGS.
+2025-10-31 17:11:36,864 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-31 17:11:36,871 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 1 total records.
+2025-10-31 17:11:36,871 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-31 17:11:36,871 - INFO - ✅ Earthquake data saved.
+2025-10-31 17:11:36,871 - INFO - All scrapers completed.
+
+2025-10-31 19:09:47,864 - INFO - NumExpr defaulting to 8 threads.
+2025-10-31 19:09:48,006 - INFO - Scheduler initialized.
+2025-10-31 20:15:37,766 - INFO - NumExpr defaulting to 8 threads.
+2025-10-31 20:15:37,912 - INFO - Scheduler initialized.
+2025-10-31 20:16:37,917 - INFO - Started job...
+2025-10-31 20:16:38,066 - INFO - Bitcoin price (API) retrieved successfully: $109236
+2025-10-31 20:16:38,074 - INFO - Bitcoin data for today's date already exists. Skipping CSV save.
+2025-10-31 20:16:38,095 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'bitcoin' with 2 total records.
+2025-10-31 20:16:38,095 - INFO - Bitcoin data also saved to dataset.h5 (HDF5).
+2025-10-31 20:16:38,095 - INFO - ✅ Bitcoin data saved.
+2025-10-31 20:16:38,231 - INFO - Open-Meteo weather data retrieved: {'date': '2025-10-31', 'temperature': 9.5, 'wind_speed': 8.9, 'weather_code': 3, 'source': 'Open-Meteo API'}
+2025-10-31 20:16:38,233 - INFO - Open-Meteo data for today's date already exists. Skipping CSV save.
+2025-10-31 20:16:38,246 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'weather' with 2 total records.
+2025-10-31 20:16:38,246 - INFO - Open-Meteo data also saved to dataset.h5 (HDF5).
+2025-10-31 20:16:38,246 - INFO - ✅ Weather data saved.
+2025-10-31 20:16:38,375 - INFO - 36 earthquake(s) parsed from USGS.
+2025-10-31 20:16:38,386 - INFO - USGS data saved to ../data/usgs.csv
+2025-10-31 20:16:38,398 - INFO - ✅ Data saved to /Users/dianalosch/PycharmProjects/data/dataset.h5 under key 'earthquakes' with 1 total records.
+2025-10-31 20:16:38,398 - INFO - USGS data also saved to dataset.h5 (HDF5).
+2025-10-31 20:16:38,398 - INFO - ✅ Earthquake data saved.
+2025-10-31 20:16:38,398 - INFO - All scrapers completed.
+
+2025-11-01 11:04:52,477 - WARNING - State file not found.
+2025-11-01 11:04:52,487 - INFO - Skipped job — outside valid window.
+2025-11-01 12:58:37,724 - INFO - NumExpr defaulting to 8 threads.
+2025-11-01 12:58:37,923 - INFO - Scheduler initialized.

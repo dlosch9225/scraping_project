@@ -8,3 +8,7 @@ date,temperature,wind_speed,weather_code,source
 2025-10-26,8.8,23.2,3,Open-Meteo API
 2025-10-27,7.8,17.9,61,Open-Meteo API
 2025-10-28,8.9,16.3,61,Open-Meteo API
+2025-10-31,10.3,10.2,3,Open-Meteo API
+2025-10-29,12.9,11.2,1,Open-Meteo API
+2025-10-30,10.3,32.2,51,Open-Meteo API
+2025-11-01,14.1,9.3,3,Open-Meteo API

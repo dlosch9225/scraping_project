@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
@@ -29,7 +33,10 @@ ax.text(1.0, -0.15, "Source: USGS Earthquake Feed", transform=ax.transAxes,
 
 ax.xaxis.set_major_locator(mdates.DayLocator())
 ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-plt.xticks(rotation=0)
+ax.xaxis.set_major_locator(mdates.DayLocator(interval=3))
+plt.xticks(rotation=10)
+plt.xticks(fontsize=8)
+
 ax.yaxis.grid(True, linestyle='--', alpha=0.5)
 ax.xaxis.grid(False)
 
@@ -37,6 +44,13 @@ ax.xaxis.grid(False)
 ax.spines["top"].set_visible(False)
 ax.spines["right"].set_visible(False)
 
+# ✅ Save to plots directory
+os.makedirs("plots", exist_ok=True)
+plt.savefig("plots/usgs_plot.png", dpi=300)
 
+# Tight layout
 plt.tight_layout()
+
+
+# Show plot
 plt.show()
