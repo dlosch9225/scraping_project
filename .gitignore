@@ -1,0 +1,10 @@
+# Ignore virtual environments
+.venv/
+
+# Ignore PyCharm / JetBrains settings
+.idea/
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
